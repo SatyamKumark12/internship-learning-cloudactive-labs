@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      'sm': '557px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+            extend: {
+                screens: {
+        'xs': {'min':'320px','max':'556px'},
+        // => @media (min-width: 992px) { ... }
+      },
+              colors: {
+                satucolor: '#e036d8',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+
+    <div class="max-w-[1200px] text-white mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-4">
+        <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+    </div>
+
+    <div class="max-w-[1320px] mx-auto mt-5 grid grid-rows-4 grid-flow-col gap-4">
+        <div class="bg-[green] py-5 text-center"> 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center row-span-2"> 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center"> 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center"> 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center"> 5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center"> 6 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center"> 7 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+        <div class="bg-[green] py-5 text-center"> 8 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam atque nostrum temporibus sed, tempora corrupti obcaecati fuga nesciunt nobis molestias, consequuntur non animi unde at dolorem repudiandae accusantium deleniti iste consectetur quidem ipsa natus.</div>
+    </div>
+    <!-- <div class="container mx-auto bg-red-900">
+        <h1 class="text-3xl text-[#99ffff] text-center">This is Tailwind Basics</h1>
+    </div> -->
+</body>
+</html>
