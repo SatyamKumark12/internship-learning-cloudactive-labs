@@ -6,7 +6,7 @@ const Products : React.FC = () => {
   return (
    <>
    <div className='mb-5'>
-   <div className='grid grid-cols-4 gap-4'>
+   <div className='grid lg:grid-cols-4 md:grid-cols-4 sm-grid-cols-1 gap-4 '>
 
     
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-5 mx-5">
